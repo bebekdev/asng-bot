@@ -32,37 +32,37 @@ client.on("message", async (message, args) => {
     console.log(message);
 
     if (message.author.id == "816166240682115072" && message.content == `${prefix}asng ${sentence}`) {
-        message.reply("MINIMAL GLORY DEK");
+        message.reply("?av yuyu");
         return;
     }
     if (message.author.id == "816166240682115072" && message.content == `${prefix}ASNG ${sentence}`) {
-        message.reply("MINIMAL GLORY DEK");
+        message.reply("?av yuyu");
         return;
     }
     if (message.author.discriminator == "0011" && message.content == `${prefix}asng ${sentence}`) {
-        message.reply("BACOD KAI PLAYER 2 ROLE");
+        message.reply("BALI NOMOR LIMA LIMA ALOK MARI KITA KOCOK YA GES YA");
         return;
     }
     if (message.author.discriminator == "0011" && message.content == `${prefix}ASNG ${sentence}`) {
-        message.reply("BACOD KAI PLAYER 2 ROLE");
+        message.reply("BALI NOMOR LIMA LIMA ALOK MARI KITA KOCOK YA GES YA");
         return;
     }
     if (message.author.discriminator == "7558" && message.content == `${prefix}asng ${sentence}`) {
-        message.reply("MINIMAL GLORY DEK");
+        message.reply("?av yuyu");
         return;
     }
     if (message.author.discriminator == "7558" && message.content == `${prefix}ASNG ${sentence}`) {
-        message.reply("MINIMAL GLORY DEK");
+        message.reply("?av yuyu");
         return;
     }
-    if (message.author.discriminator == "3371" && message.content == `${prefix}asng ${sentence}`) {
-        message.reply("MOH, YA MENURUT LU AJA");
-        return;
-    }
-    if (message.author.discriminator == "3371" && message.content == `${prefix}ASNG ${sentence}`) {
-        message.reply("MOH, YA MENURUT LU AJA");
-        return;
-    }
+    // if (message.author.discriminator == "3371" && message.content == `${prefix}asng ${sentence}`) {
+    //     message.reply("MOH, YA MENURUT LU AJA");
+    //     return;
+    // }
+    // if (message.author.discriminator == "3371" && message.content == `${prefix}ASNG ${sentence}`) {
+    //     message.reply("MOH, YA MENURUT LU AJA");
+    //     return;
+    // }
 
     if (message.content == `${prefix}asng ${sentence}` || message.content == `${prefix}ASNG ${sentence}`) {
         const reverseString = (str) => {
