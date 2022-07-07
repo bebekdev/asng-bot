@@ -32,11 +32,11 @@ client.on("message", async (message, args) => {
     console.log(message);
 
     if (message.author.id == "816166240682115072" && message.content == `${prefix}asng ${sentence}`) {
-        message.reply("?av yuyu");
+        message.reply("?afk");
         return;
     }
     if (message.author.id == "816166240682115072" && message.content == `${prefix}ASNG ${sentence}`) {
-        message.reply("?av yuyu");
+        message.reply("?afk");
         return;
     }
     if (message.author.discriminator == "0011" && message.content == `${prefix}asng ${sentence}`) {
